@@ -1,0 +1,28 @@
+#table-siswa{
+    border-collapse: collapse;
+    background: url(Background\ Tekstur\ Putih\ Bersih\ Latar\ Belakang\,\ Bersih\,\ Putih\,\ Tekstur\ Latar\ Belakang\ untuk\ Unduhan\ Gratis.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+.link{
+    color: red;
+    text-decoration: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: green;
+}
+#table-siswa h3{
+    font-size: 32px;
+}
+#table-siswa td{
+    padding: 28px;
+}
