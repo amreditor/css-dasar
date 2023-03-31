@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Wrapper dan Container</title>
+</head>
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* Bckground Halaman Web */
+    background-color: #ecf0f1;
+}
+
+.wrapper{
+    background: grey;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    /* Background content */
+    background-color: #bdc3c7;
+}
+
+.sidebar{
+    width: 400px;
+    height: 600px;
+    float: left;
+}
+
+.content{
+    width: 600px;
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+#logo{
+    float: left;
+    width: 200px;
+    height: auto;
+    padding: 20px;
+}
+
+#logo img{
+    max-width: 100%;
+    height: auto;
+}
+
+#menu{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    float: right;
+    width: 850px;
+}
+
+#menu li{
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#menu li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #34495e;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.blog-single{
+    float: left;
+    max-width: 820px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.blog-single img{
+    width: 500px;
+    height: 320px;
+    object-fit: cover;
+}
+
+.recent-article{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.recent-article ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.text-box{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-box h2{
+    margin-bottom: 6px;
+}
+
+.text-box p{
+    margin-bottom: 6px;
+}
+</style>
+
+<body>
+    <div id="header" class="wrapper">
+        <div class="container">
+            <div id="logo">
+                <img src="jongkreatif.png" alt="">
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tentang.html">Tentang</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="container">
+            <div class="sidebar">
+                <div class="recent-article">
+                    <h2></h2>
+                    <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        <div class="content">
+            <div class="blog-single">
+                <div class="image-box">
+                    <img src="https://pict.sindonews.net/dyn/732/pena/news/2020/11/03/12/217650/begini-proses-pembuatan-uu-ciptaker-hingga-akhirnya-diteken-jokowi-yeo.jpg" alt="">
+                </div>
+
+                <div class="text-box">
+                    <h2>ciptaker?</h2>
+                    <p><bold>apa yang di maksud ciptaker?</bold>
+                        Cipta Kerja adalah upaya penciptaan kerja melalui usaha kemudahan, perlindungan, dan pemberdayaan,
+                         usaha mikro, kecil, dan menengah, peningkatan ekosistem investasi dan kemudahan berusaha, dan 
+                         investasi Pemerintah Pusat dan percepatan proyek strategis nasional.
+                    </p>
+                    
+                </div>
+            </div>
+
+            <div class="blog-single">
+                <div class="image-box">
+                    <img src="https://iconews.iconpln.co.id/wp-content/uploads/2020/05/SDM_COVER.png" alt="">
+                </div>
+
+                <div class="text-box">
+                    <h2>apakah harus tenang menghadapai masalah?</h2>
+                    <p>jawaban nya sudah pasti iya karena , dengan tenang kita bisa menghadapi masalah
+                        dengan tidak sakit kepala.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="clear"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
